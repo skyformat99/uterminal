@@ -52,7 +52,6 @@ extern "C" {
         const char *   prompt_buffer;
         unsigned int    prompt_size;
     }CMD_NCB_ST;
-    extern  int cmd_get_one_cmd_from_buff(CMD_NCB_ST *fs, unsigned char data);
     extern  int cmd_destory(CMD_NCB_ST *fs);
     extern  int cmd_register(CMD_NCB_ST *fs, char *name, char *usage, cmd_fun_t fun);
     extern  int cmd_create(CMD_NCB_ST **pfs, printf_st printf_, putc_st putc_, const char * const prompt);

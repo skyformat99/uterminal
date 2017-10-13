@@ -1,10 +1,5 @@
 #include "uterminal.h"
 
-/*
- * CMD_NCB_ST command node control block
- * buffer and len is the usart recieve
-*/
-
 #ifdef __cplusplus
 extern "C" {
 #endif
